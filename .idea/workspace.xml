@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a174971b-9b7d-4a28-adce-c52f9e99a510" name="Default Changelist" comment="init" />
+    <list default="true" id="a174971b-9b7d-4a28-adce-c52f9e99a510" name="Default Changelist" comment="index.html&#10;+ navbar&#10;+ container for content&#10;+ footer&#10;+ &lt;head&gt; added all meta tags&#10;&#10;style.css&#10;+ added styles for classes and tags" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +29,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="55157e1d-b47b-4ef9-ad43-1d3e9f1d4906" />
   </component>
   <component name="ProjectId" id="1jBBynWPT6dXdMaG1uh5yFiE6u8" />
   <component name="ProjectLevelVcsManager">
@@ -54,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603267862536</updated>
-      <workItem from="1603267864497" duration="220000" />
+      <workItem from="1603267864497" duration="586000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1603267960356</created>
@@ -63,7 +66,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603267960356</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial">
+      <created>1603268099441</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603268099441</updated>
+    </task>
+    <task id="LOCAL-00003" summary="index.html&#10;+ navbar&#10;+ container for content&#10;+ footer&#10;+ &lt;head&gt; added all meta tags&#10;&#10;style.css&#10;+ added styles for classes and tags">
+      <created>1603268446512</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603268446512</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,16 +99,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="initial" />
+    <MESSAGE value="index.html&#10;+ navbar&#10;+ container for content&#10;+ footer&#10;+ &lt;head&gt; added all meta tags&#10;&#10;style.css&#10;+ added styles for classes and tags" />
+    <option name="LAST_COMMIT_MESSAGE" value="index.html&#10;+ navbar&#10;+ container for content&#10;+ footer&#10;+ &lt;head&gt; added all meta tags&#10;&#10;style.css&#10;+ added styles for classes and tags" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="341" y="147" key="SettingsEditor" timestamp="1603268083719">
+    <state x="685" y="439" key="Github.Dialog.Accounts.Choose" timestamp="1603268114134">
       <screen x="0" y="23" width="1680" height="971" />
     </state>
-    <state x="341" y="147" key="SettingsEditor/0.23.1680.971@0.23.1680.971" timestamp="1603268083719" />
-    <state x="440" y="248" key="Vcs.Push.Dialog.v2" timestamp="1603267915837">
+    <state x="685" y="439" key="Github.Dialog.Accounts.Choose/0.23.1680.971@0.23.1680.971" timestamp="1603268114134" />
+    <state x="341" y="147" key="SettingsEditor" timestamp="1603268357604">
       <screen x="0" y="23" width="1680" height="971" />
     </state>
-    <state x="440" y="248" key="Vcs.Push.Dialog.v2/0.23.1680.971@0.23.1680.971" timestamp="1603267915837" />
+    <state x="341" y="147" key="SettingsEditor/0.23.1680.971@0.23.1680.971" timestamp="1603268357604" />
+    <state x="440" y="248" key="Vcs.Push.Dialog.v2" timestamp="1603268109234">
+      <screen x="0" y="23" width="1680" height="971" />
+    </state>
+    <state x="440" y="248" key="Vcs.Push.Dialog.v2/0.23.1680.971@0.23.1680.971" timestamp="1603268109234" />
   </component>
 </project>
