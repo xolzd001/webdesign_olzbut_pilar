@@ -111,17 +111,17 @@ nav .nav a {
     padding-top: 15px;
 }
 
-.lorem {
+.uvod {
     background: #eee;
     color: #000;
 }
 
-.lorem2 {
+.lorem {
     background: #fff;
     color: #000;
 }
 
-nav, .lorem, .lorem2, .footer {
+nav, .uvod, .lorem, .footer {
     -moz-box-shadow: 0 0 10px 0 rgba(50, 50, 50, 0.6);
     box-shadow: 0 0 10px 0 rgba(50, 50, 50, 0.6);
 }

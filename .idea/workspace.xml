@@ -10,7 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a174971b-9b7d-4a28-adce-c52f9e99a510" name="Default Changelist" comment="index.html&#10;+ navbar&#10;+ container for content&#10;+ footer&#10;+ &lt;head&gt; added all meta tags&#10;&#10;style.css&#10;+ added styles for classes and tags" />
+    <list default="true" id="a174971b-9b7d-4a28-adce-c52f9e99a510" name="Default Changelist" comment="index.html&#10;+ navbar&#10;+ container for content&#10;+ footer&#10;+ &lt;head&gt; added all meta tags&#10;&#10;style.css&#10;+ added styles for classes and tags">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +59,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603267862536</updated>
-      <workItem from="1603267864497" duration="586000" />
+      <workItem from="1603267864497" duration="949000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1603267960356</created>
@@ -80,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603268446512</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="index.html&#10;+ navbar&#10;+ container for content&#10;+ footer&#10;+ &lt;head&gt; added all meta tags&#10;&#10;style.css&#10;+ added styles for classes and tags">
+      <created>1603268501056</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603268501056</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,9 +121,9 @@
       <screen x="0" y="23" width="1680" height="971" />
     </state>
     <state x="341" y="147" key="SettingsEditor/0.23.1680.971@0.23.1680.971" timestamp="1603268357604" />
-    <state x="440" y="248" key="Vcs.Push.Dialog.v2" timestamp="1603268109234">
+    <state x="440" y="248" key="Vcs.Push.Dialog.v2" timestamp="1603268507669">
       <screen x="0" y="23" width="1680" height="971" />
     </state>
-    <state x="440" y="248" key="Vcs.Push.Dialog.v2/0.23.1680.971@0.23.1680.971" timestamp="1603268109234" />
+    <state x="440" y="248" key="Vcs.Push.Dialog.v2/0.23.1680.971@0.23.1680.971" timestamp="1603268507669" />
   </component>
 </project>
