@@ -10,7 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a174971b-9b7d-4a28-adce-c52f9e99a510" name="Default Changelist" comment="fixed H1 and H2 topology" />
+    <list default="true" id="a174971b-9b7d-4a28-adce-c52f9e99a510" name="Default Changelist" comment="some improvements">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603267862536</updated>
-      <workItem from="1603267864497" duration="1302000" />
+      <workItem from="1603267864497" duration="1652000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1603267960356</created>
@@ -101,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603289447693</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="some improvements">
+      <created>1603289638994</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1603289638994</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,21 +133,26 @@
     <MESSAGE value="initial" />
     <MESSAGE value="index.html&#10;+ navbar&#10;+ container for content&#10;+ footer&#10;+ &lt;head&gt; added all meta tags&#10;&#10;style.css&#10;+ added styles for classes and tags" />
     <MESSAGE value="fixed H1 and H2 topology" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed H1 and H2 topology" />
+    <MESSAGE value="some improvements" />
+    <option name="LAST_COMMIT_MESSAGE" value="some improvements" />
   </component>
   <component name="WindowStateProjectService">
     <state x="685" y="439" key="Github.Dialog.Accounts.Choose" timestamp="1603268114134">
       <screen x="0" y="23" width="1680" height="971" />
     </state>
     <state x="685" y="439" key="Github.Dialog.Accounts.Choose/0.23.1680.971@0.23.1680.971" timestamp="1603268114134" />
+    <state x="1459" y="429" key="RollbackChangesDialog" timestamp="1603289614542">
+      <screen x="0" y="0" width="3440" height="1440" />
+    </state>
+    <state x="1459" y="429" key="RollbackChangesDialog/997.1440.1680.1050/0.0.3440.1440@0.0.3440.1440" timestamp="1603289614542" />
     <state x="341" y="147" key="SettingsEditor" timestamp="1603268357604">
       <screen x="0" y="23" width="1680" height="971" />
     </state>
     <state x="341" y="147" key="SettingsEditor/0.23.1680.971@0.23.1680.971" timestamp="1603268357604" />
-    <state x="901" y="334" key="Vcs.Push.Dialog.v2" timestamp="1603289454202">
+    <state x="901" y="334" key="Vcs.Push.Dialog.v2" timestamp="1603289643094">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
     <state x="440" y="248" key="Vcs.Push.Dialog.v2/0.23.1680.971@0.23.1680.971" timestamp="1603268507669" />
-    <state x="901" y="334" key="Vcs.Push.Dialog.v2/997.1440.1680.1050/0.0.3440.1440@0.0.3440.1440" timestamp="1603289454202" />
+    <state x="901" y="334" key="Vcs.Push.Dialog.v2/997.1440.1680.1050/0.0.3440.1440@0.0.3440.1440" timestamp="1603289643094" />
   </component>
 </project>
