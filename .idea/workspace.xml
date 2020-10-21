@@ -10,9 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a174971b-9b7d-4a28-adce-c52f9e99a510" name="Default Changelist" comment="index.html&#10;+ navbar&#10;+ container for content&#10;+ footer&#10;+ &lt;head&gt; added all meta tags&#10;&#10;style.css&#10;+ added styles for classes and tags">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a174971b-9b7d-4a28-adce-c52f9e99a510" name="Default Changelist" comment="fixed H1 and H2 topology" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603267862536</updated>
-      <workItem from="1603267864497" duration="949000" />
+      <workItem from="1603267864497" duration="1302000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1603267960356</created>
@@ -89,7 +87,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603268501056</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fixed H1 and H2 topology">
+      <created>1603289339540</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603289339540</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fixed H1 and H2 topology">
+      <created>1603289447693</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1603289447693</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,7 +122,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="initial" />
     <MESSAGE value="index.html&#10;+ navbar&#10;+ container for content&#10;+ footer&#10;+ &lt;head&gt; added all meta tags&#10;&#10;style.css&#10;+ added styles for classes and tags" />
-    <option name="LAST_COMMIT_MESSAGE" value="index.html&#10;+ navbar&#10;+ container for content&#10;+ footer&#10;+ &lt;head&gt; added all meta tags&#10;&#10;style.css&#10;+ added styles for classes and tags" />
+    <MESSAGE value="fixed H1 and H2 topology" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed H1 and H2 topology" />
   </component>
   <component name="WindowStateProjectService">
     <state x="685" y="439" key="Github.Dialog.Accounts.Choose" timestamp="1603268114134">
@@ -121,9 +134,10 @@
       <screen x="0" y="23" width="1680" height="971" />
     </state>
     <state x="341" y="147" key="SettingsEditor/0.23.1680.971@0.23.1680.971" timestamp="1603268357604" />
-    <state x="440" y="248" key="Vcs.Push.Dialog.v2" timestamp="1603268507669">
-      <screen x="0" y="23" width="1680" height="971" />
+    <state x="901" y="334" key="Vcs.Push.Dialog.v2" timestamp="1603289454202">
+      <screen x="0" y="0" width="3440" height="1440" />
     </state>
     <state x="440" y="248" key="Vcs.Push.Dialog.v2/0.23.1680.971@0.23.1680.971" timestamp="1603268507669" />
+    <state x="901" y="334" key="Vcs.Push.Dialog.v2/997.1440.1680.1050/0.0.3440.1440@0.0.3440.1440" timestamp="1603289454202" />
   </component>
 </project>
