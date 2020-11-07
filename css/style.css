@@ -12,7 +12,7 @@ html, body{
 body{
     margin: 0 auto;
     background-color: #eee;
-    font-family: 'Quicksand', sans-serif!important;
+    font-family: 'Quicksand', sans-serif;
     text-align: center;
     font-size: 18px;
     line-height: 1.42857143;
@@ -37,7 +37,7 @@ a {
 }
 .navbar{
     background: #fff;
-    margin-bottom: 0!important;
+    margin-bottom: 0;
     top: 0;
     position: fixed;
     width: 100%;
