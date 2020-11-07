@@ -11,8 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a174971b-9b7d-4a28-adce-c52f9e99a510" name="Default Changelist" comment="some improvements">
+      <change afterPath="$PROJECT_DIR$/img/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +51,18 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -60,7 +72,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603267862536</updated>
-      <workItem from="1603267864497" duration="1652000" />
+      <workItem from="1603267864497" duration="2245000" />
+      <workItem from="1604674265005" duration="1832000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1603267960356</created>
@@ -111,7 +124,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603289638994</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="some improvements">
+      <created>1603289880220</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1603289880220</updated>
+    </task>
+    <task id="LOCAL-00009" summary="some improvements">
+      <created>1603289930261</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1603289930261</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +154,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
@@ -145,14 +173,15 @@
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
     <state x="1459" y="429" key="RollbackChangesDialog/997.1440.1680.1050/0.0.3440.1440@0.0.3440.1440" timestamp="1603289614542" />
-    <state x="341" y="147" key="SettingsEditor" timestamp="1603268357604">
-      <screen x="0" y="23" width="1680" height="971" />
+    <state x="341" y="134" key="SettingsEditor" timestamp="1604783331287">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="341" y="134" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1604783331287" />
     <state x="341" y="147" key="SettingsEditor/0.23.1680.971@0.23.1680.971" timestamp="1603268357604" />
-    <state x="901" y="334" key="Vcs.Push.Dialog.v2" timestamp="1603289643094">
+    <state x="901" y="334" key="Vcs.Push.Dialog.v2" timestamp="1603289937070">
       <screen x="0" y="0" width="3440" height="1440" />
     </state>
     <state x="440" y="248" key="Vcs.Push.Dialog.v2/0.23.1680.971@0.23.1680.971" timestamp="1603268507669" />
-    <state x="901" y="334" key="Vcs.Push.Dialog.v2/997.1440.1680.1050/0.0.3440.1440@0.0.3440.1440" timestamp="1603289643094" />
+    <state x="901" y="334" key="Vcs.Push.Dialog.v2/997.1440.1680.1050/0.0.3440.1440@0.0.3440.1440" timestamp="1603289937070" />
   </component>
 </project>

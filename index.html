@@ -4,7 +4,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>Semestrální projekt</title>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
     <meta name="description" content="Semestrální projekt - Webdesign">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="eshop, czu, czushop">
@@ -15,60 +15,91 @@
 </head>
 
 <body>
-    <!-- Hlavicka / Menu -->
-    <div class="container-fluid">
-        <nav class="container-fluid navbar">
-            <div class="container">
+<!-- Hlavička/Menu -->
+<nav class="container-fluid navbar">
+    <div class="container">
 
-                <div class="nav-logo">
-                    <img src="" alt="">
-                </div>
-
-                <div class="navbar-right">
-                    <ul class="nav">
-                        <li>
-                            <a href="#">E-Shop</a>
-                        </li>
-
-                        <li>
-                            <a href="#">Košík</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <div class="nav-logo">
+            <img src="./img/logo.png" alt="logo">
+        </div>
+        <div class="navbar-right">
+            <ul class="nav">
+                <li>
+                    <a href="#o-nas">O nás</a>
+                </li>
+                <li>
+                    <a href="#nase-produkty">Naše produkty</a>
+                </li>
+                <li>
+                    <a href="#kontakt">Kontakt</a>
+                </li>
+            </ul>
+        </div>
     </div>
+</nav>
+<div class="top"></div>
 
-    <!-- uvod -->
-    <div class="container-fluid uvod">
-        <div id="uvod" class="container">
-            <h1>domena.cz</h1>
-            <div class="underline"></div>
+<!-- Uvod -->
+<div class="container-fluid uvod shadow">
+    <div id="uvod">
+        <div class="filter"></div>
+        <div class="container-fluid uvod-text">
+            <h1>Semestrální projekt</h1>
+            <div class="underline-h1"></div>
             <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam quis nulla. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Cras elementum. Nulla accumsan, elit sit amet varius semper, nulla mauris mollis quam, tempor suscipit diam nulla vel leo. Aliquam erat volutpat. Fusce nibh. Nunc dapibus tortor vel mi dapibus sollicitudin. Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est. Fusce consectetuer risus a nunc. Duis bibendum, lectus ut viverra rhoncus, dolor nunc faucibus libero, eget facilisis enim ipsum id lacus. Aenean fermentum risus id tortor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Donec iaculis gravida nulla. Nunc auctor.
+                Jednoduchý ESHOP oblečení z provozně ekonomické fakulty české zemědělské univerzity
             </p>
-
         </div>
     </div>
+</div>
 
-    <!-- Lorem ipsum -->
-    <div class="container-fluid lorem2">
-        <div id="lorem2" class="container">
-            <h2>Naše produkty</h2>
-            <div class="underline"></div>
-            <p>
-                Donec vitae arcu. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. Quisque tincidunt scelerisque libero. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
-            </p>
-
-        </div>
+<!-- O nas -->
+<div class="container-fluid o-nas shadow bg-white">
+    <div id="o-nas" class="container">
+        <h2>O nás</h2>
+        <div class="underline"></div>
+        <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras elementum. Aenean fermentum risus id tortor. Morbi leo mi, nonummy eget tristique non, rhoncus non leo. Et harum quidem rerum facilis est et expedita distinctio. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+        </p>
     </div>
+</div>
 
-    <!-- Patička -->
-    <div class="container-fluid footer">
-        <div class="container">
-            <div class="copyright">©2020 David Olžbut & David Pilař </div>
-        </div>
+
+<!-- Zdroje -->
+<div class="container-fluid nase-produkty shadow bg-grey">
+    <div id="nase-produkty" class="container">
+        <h2>Naše produkty</h2>
+        <div class="underline"></div>
+        <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras elementum. Aenean fermentum risus id tortor. Morbi leo mi, nonummy eget tristique non, rhoncus non leo. Et harum quidem rerum facilis est et expedita distinctio. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+        </p>
+
+
+
     </div>
+</div>
+
+<!-- Kontakt -->
+<div class="container-fluid kontakt shadow bg-white">
+    <div id="kontakt" class="container">
+        <h2>Kontakt</h2>
+        <div class="underline"></div>
+        <p>V případě jakéhokoliv dotazu nás neváhejte kontaktovat.</p>
+            <address>
+                <strong>Telefon:</strong>
+                +420 777 666 555
+            </address>
+
+
+    </div>
+</div>
+
+<!-- Patička -->
+<footer class="container-fluid footer">
+    <div class="container">
+        <div class="copyright">© David Olžbut & David Pilař</div>
+    </div>
+</footer>
 
 </body>
 
