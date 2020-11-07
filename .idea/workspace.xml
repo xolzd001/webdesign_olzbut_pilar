@@ -11,7 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a174971b-9b7d-4a28-adce-c52f9e99a510" name="Default Changelist" comment="some improvements">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603267862536</updated>
       <workItem from="1603267864497" duration="2245000" />
-      <workItem from="1604674265005" duration="2531000" />
+      <workItem from="1604674265005" duration="3012000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1603267960356</created>
@@ -142,7 +141,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604783752639</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="+ some style improvements">
+      <created>1604784250214</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604784250214</updated>
+    </task>
+    <task id="LOCAL-00012" summary="+ some style improvements">
+      <created>1604784320357</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1604784320357</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,7 +180,8 @@
     <MESSAGE value="fixed H1 and H2 topology" />
     <MESSAGE value="some improvements" />
     <MESSAGE value="+ added intro section&#10;+ added background photo and filter&#10;+ added logo&#10;+ improved graphics" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ added intro section&#10;+ added background photo and filter&#10;+ added logo&#10;+ improved graphics" />
+    <MESSAGE value="+ some style improvements" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ some style improvements" />
   </component>
   <component name="WindowStateProjectService">
     <state x="685" y="439" key="Github.Dialog.Accounts.Choose" timestamp="1603268114134">
@@ -183,10 +197,10 @@
     </state>
     <state x="341" y="134" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1604783331287" />
     <state x="341" y="147" key="SettingsEditor/0.23.1680.971@0.23.1680.971" timestamp="1603268357604" />
-    <state x="440" y="244" key="Vcs.Push.Dialog.v2" timestamp="1604784259854">
+    <state x="440" y="244" key="Vcs.Push.Dialog.v2" timestamp="1604784324243">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="244" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1604784259854" />
+    <state x="440" y="244" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1604784324243" />
     <state x="440" y="248" key="Vcs.Push.Dialog.v2/0.23.1680.971@0.23.1680.971" timestamp="1603268507669" />
     <state x="901" y="334" key="Vcs.Push.Dialog.v2/997.1440.1680.1050/0.0.3440.1440@0.0.3440.1440" timestamp="1603289937070" />
   </component>
