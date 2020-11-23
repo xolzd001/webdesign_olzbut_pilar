@@ -4,20 +4,19 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>Semestrální projekt</title>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
-    <link href="https://use.fontawesome.com/facf9fa52c.css" media="all" rel="stylesheet">
+    <!-- link href="https://use.fontawesome.com/facf9fa52c.css" media="all" rel="stylesheet"-->
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <meta name="description" content="Semestrální projekt - Webdesign">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="eshop, czu, czushop">
     <meta name="googlebot" content="snippet,archive">
     <meta name="robots" content="index,follow">
-    <meta http-equiv="Content-language" content="cs">
     <meta name="author" content="David Olžbut, David Pilař">
 </head>
 
 <body>
-<!-- Hlavička/Menu -->
 
+<!-- menu -->
 <input id="main-menu-checkbox" type="checkbox">
 
 <header>
@@ -30,74 +29,69 @@
         <span class="fa fa-bars" aria-hidden="true"></span>
     </label>
 
-    <nav id="main-menu" role="navigation" class="main-menu container-fluid navbar" aria-expanded="false" aria-label="Main menu">
-        <label for="main-menu-checkbox"class="menu-close">
+    <nav id="main-menu"
+         class="main-menu container-fluid navbar"
+         aria-expanded="false"
+         aria-label="Main menu">
+        <label for="main-menu-checkbox" class="menu-close">
             <span class="sr-only">Close main menu</span>
             <span class="fa fa-close" aria-hidden="true"></span>
         </label>
         <ul class="nav">
             <li>
-                <a href="#o-nas">O nás</a>
+                <a href="#about-us">O nás</a>
             </li>
             <li>
                 <a href="#nase-produkty">Naše produkty</a>
             </li>
             <li>
-                <a href="#kontakt">Kontakt</a>
+                <a href="#contact">Kontakt</a>
             </li>
         </ul>
     </nav>
     <label for="main-menu-checkbox"
            class="backdrop"
            tabindex="-1"
-           aria-hidden="true" hidden></label>
+           hidden></label>
 </header>
 
 <div class="top"></div>
 
-<!-- Uvod -->
-<div class="container-fluid uvod shadow">
-    <div id="uvod">
+<section class="container-fluid intro shadow">
+    <div id="intro">
         <div class="filter"></div>
-        <div class="container-fluid uvod-text">
+        <div class="container-fluid intro-text">
             <h1>Semestrální projekt</h1>
             <div class="underline-h1"></div>
             <p>
-                Jednoduchý ESHOP oblečení z provozně ekonomické fakulty české zemědělské univerzity
+                Jednoduchý E-SHOP s oblečením z provozně ekonomické fakulty české zemědělské univerzity
             </p>
         </div>
     </div>
-</div>
+</section>
 
-<!-- O nas -->
-<div class="container-fluid o-nas shadow bg-white">
-    <div id="o-nas" class="container">
+<section class="container-fluid shadow bg-white">
+    <div id="about-us" class="container">
         <h2>O nás</h2>
         <div class="underline"></div>
         <p>
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras elementum. Aenean fermentum risus id tortor. Morbi leo mi, nonummy eget tristique non, rhoncus non leo. Et harum quidem rerum facilis est et expedita distinctio. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
         </p>
     </div>
-</div>
+</section>
 
-
-<!-- Zdroje -->
-<div class="container-fluid nase-produkty shadow bg-grey">
-    <div id="nase-produkty" class="container">
+<section class="container-fluid shadow bg-grey">
+    <div id="our-products" class="container">
         <h2>Naše produkty</h2>
         <div class="underline"></div>
         <p>
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Cras elementum. Aenean fermentum risus id tortor. Morbi leo mi, nonummy eget tristique non, rhoncus non leo. Et harum quidem rerum facilis est et expedita distinctio. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
         </p>
-
-
-
     </div>
-</div>
+</section>
 
-<!-- Kontakt -->
-<div class="container-fluid kontakt shadow bg-white">
-    <div id="kontakt" class="container">
+<section class="container-fluid shadow bg-white">
+    <div id="contact" class="container">
         <h2>Kontakt</h2>
         <div class="underline"></div>
         <p>V případě jakéhokoliv dotazu nás neváhejte kontaktovat.</p>
@@ -108,9 +102,8 @@
 
 
     </div>
-</div>
+</section>
 
-<!-- Patička -->
 <footer class="container-fluid footer">
     <div class="container">
         <div class="copyright">© David Olžbut & David Pilař</div>

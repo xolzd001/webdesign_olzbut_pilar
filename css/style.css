@@ -3,7 +3,7 @@ Style Sheet for CZU eShop
 
 version: 1.4
 last modified: 23.11.2020
-author: David Olzbut, David Pilar
+author: David Olžbut, David Pilař
 ----------------------------------------------------------*/
 html, body{
     height: 100%;
@@ -57,7 +57,7 @@ header {
     padding-top: 60px;
     margin-top: -60px;
 }
-.uvod {
+.intro {
     background: url(../img/background.jpg) no-repeat center center;
     background-size: cover;
     text-transform: uppercase;
@@ -67,7 +67,7 @@ header {
     position: relative;
     overflow: hidden;
 }
-.uvod .filter {
+.intro .filter {
     position: absolute;
     left: 0;
     top: 0;
@@ -75,20 +75,20 @@ header {
     bottom: 0;
     background-color: rgba(0,0,0,0.75);
 }
-.uvod-text{
+.intro-text{
     max-width: 650px;
     margin: 0 auto;
     padding-top: 30vh;
     color: #fff;
     position: relative;
 }
-.uvod-text .underline-h1 {
+.intro-text .underline-h1 {
     max-width: 400px;
     background: #fff;
     height: 3px;
     margin: 0 auto;
 }
-.uvod-text p {
+.intro-text p {
     font-size: 22px;
     margin-top: 15px;
     padding: 0 30px;
@@ -151,7 +151,7 @@ header {
 
 .menu-toggle:hover,
 #main-menu-checkbox:focus ~ header .menu-toggle {
-    color: #c00;
+    color: #cc0000;
     outline: auto;
 }
 
@@ -196,10 +196,6 @@ header {
     color: #fff;
     text-decoration: none;
     border-bottom: 1px solid #383838;
-}
-
-.main-menu li:first-child a {
-    border-top: 1px solid #383838;
 }
 
 .main-menu a:hover,
@@ -287,8 +283,7 @@ Horizontal menu
 
     .main-menu ul {
         display: flex;
-
-        padding: 0;
+        padding-top: 5px;
         -webkit-box-shadow: none;
         -moz-box-shadow: none;
         box-shadow: none;
@@ -299,7 +294,7 @@ Horizontal menu
 
     .main-menu a {
         color: #06c;
-        border: 0 !important;
+        border: 0;
     }
 
     .main-menu a:hover,
