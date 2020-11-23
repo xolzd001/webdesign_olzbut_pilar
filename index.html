@@ -4,6 +4,7 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>Semestrální projekt</title>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://use.fontawesome.com/facf9fa52c.css" media="all" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <meta name="description" content="Semestrální projekt - Webdesign">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,27 +17,42 @@
 
 <body>
 <!-- Hlavička/Menu -->
-<nav class="container-fluid navbar">
-    <div class="container">
 
-        <div class="nav-logo">
-            <img src="./img/logo.png" alt="logo">
-        </div>
-        <div class="navbar-right">
-            <ul class="nav">
-                <li>
-                    <a href="#o-nas">O nás</a>
-                </li>
-                <li>
-                    <a href="#nase-produkty">Naše produkty</a>
-                </li>
-                <li>
-                    <a href="#kontakt">Kontakt</a>
-                </li>
-            </ul>
-        </div>
+<input id="main-menu-checkbox" type="checkbox">
+
+<header>
+    <div class="nav-logo">
+        <img src="./img/logo.png" alt="logo">
     </div>
-</nav>
+
+    <label for="main-menu-checkbox" class="menu-toggle">
+        <span class="sr-only">Open main menu</span>
+        <span class="fa fa-bars" aria-hidden="true"></span>
+    </label>
+
+    <nav id="main-menu" role="navigation" class="main-menu container-fluid navbar" aria-expanded="false" aria-label="Main menu">
+        <label for="main-menu-checkbox"class="menu-close">
+            <span class="sr-only">Close main menu</span>
+            <span class="fa fa-close" aria-hidden="true"></span>
+        </label>
+        <ul class="nav">
+            <li>
+                <a href="#o-nas">O nás</a>
+            </li>
+            <li>
+                <a href="#nase-produkty">Naše produkty</a>
+            </li>
+            <li>
+                <a href="#kontakt">Kontakt</a>
+            </li>
+        </ul>
+    </nav>
+    <label for="main-menu-checkbox"
+           class="backdrop"
+           tabindex="-1"
+           aria-hidden="true" hidden></label>
+</header>
+
 <div class="top"></div>
 
 <!-- Uvod -->
@@ -85,10 +101,10 @@
         <h2>Kontakt</h2>
         <div class="underline"></div>
         <p>V případě jakéhokoliv dotazu nás neváhejte kontaktovat.</p>
-            <address>
-                <strong>Telefon:</strong>
-                +420 777 666 555
-            </address>
+        <address>
+            <strong>Telefon:</strong>
+            +420 777 666 555
+        </address>
 
 
     </div>
