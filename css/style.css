@@ -171,7 +171,7 @@ header {
     /*margin-top: 80px;*/
     display: grid;
     align-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     grid-column-gap: 25px;
     grid-row-gap: 25px;
 }
