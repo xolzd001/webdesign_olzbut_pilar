@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Semestrální projekt</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://use.fontawesome.com/facf9fa52c.css" media="all" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <meta name="description" content="Semestrální projekt - Webdesign">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="eshop, czu, czushop">
+    <meta name="googlebot" content="snippet,archive">
+    <meta name="robots" content="index,follow">
+    <meta name="author" content="David Olžbut, David Pilař">
+</head>
+
+<body>
+
+<!-- menu -->
+<input id="main-menu-checkbox" type="checkbox">
+
+<header class="container-fluid shadow">
+    <div class="nav-logo">
+        <img src="./img/logo.png" alt="logo">
+    </div>
+
+    <label for="main-menu-checkbox" class="menu-toggle">
+        <span class="sr-only"></span>
+        <span class="fa fa-bars" aria-hidden="true"></span>
+    </label>
+
+    <nav id="main-menu"
+         class="main-menu container-fluid navbar"
+         aria-expanded="false"
+         aria-label="Main menu">
+        <label for="main-menu-checkbox" class="menu-close">
+            <span class="sr-only">Close main menu</span>
+            <span class="fa fa-close" aria-hidden="true"></span>
+        </label>
+        <ul class="nav">
+            <li>
+                <a href="index.html#about-us">O nás</a>
+            </li>
+            <li>
+                <a href="index.html#our-products">Naše produkty</a>
+            </li>
+            <li>
+                <a href="index.html#contact">Kontakt</a>
+            </li>
+        </ul>
+    </nav>
+    <label for="main-menu-checkbox"
+           class="backdrop"
+           tabindex="-1"
+           hidden></label>
+</header>
+
+<div class="top"></div>
+
+<section class="container-fluid o-nas bg-white" style="">
+    <div id="basket" class="container">
+        <h2>Košík</h2>
+        <div class="underline"></div>
+
+        <div class="basket_products_container">
+            <div class="basket_items">
+                <div class="basket_item">
+                    <div class="basket_product_image">
+                        <a href="#">
+                            <img src="https://www.izun.eu/clanky/_obrazky2013/aktuality/Tricka%20CZU/tricko%201.jpg">
+                        </a>
+                    </div>
+                    <div class="basket_item_details">
+                        <span class="product_name">ČZU tričko zelené</span>
+                        <span class="product_amount">2x</span>
+                        <span class="product_price">350,- Kč</span>
+                        <button class="product_remove">Odebrat</button>
+                    </div>
+                </div>
+
+                <div class="basket_item">
+                    <div class="basket_product_image">
+                        <a href="#">
+                            <img src="https://www.izun.eu/clanky/_obrazky2013/aktuality/Tricka%20CZU/tricko%201.jpg">
+                        </a>
+                    </div>
+                    <div class="basket_item_details">
+                        <span class="product_name">ČZU tričko zelené</span>
+                        <span class="product_amount">2x</span>
+                        <span class="product_price">350,- Kč</span>
+                        <button class="product_remove">Odebrat</button>
+                    </div>
+                </div>
+
+                <div class="basket_item">
+                    <div class="basket_product_image">
+                        <a href="#">
+                            <img src="https://www.izun.eu/clanky/_obrazky2013/aktuality/Tricka%20CZU/tricko%201.jpg">
+                        </a>
+                    </div>
+                    <div class="basket_item_details">
+                        <span class="product_name">ČZU tričko zelené</span>
+                        <span class="product_amount">2x</span>
+                        <span class="product_price">350,- Kč</span>
+                        <button class="product_remove">Odebrat</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="underline"></div>
+
+            <div class="basket_sumup">
+                <span>Celkem: 2100,- Kč</span>
+                <a href="basket2.html"><span>Pokračovat</span></a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="container-fluid">
+    <a href="basket.html" class="float">
+        <span class="fa fa-shopping-basket my-float"></span>
+    </a>
+</section>
+
+<footer class="container-fluid footer  shadow">
+    <div class="container">
+        <div class="copyright">© David Olžbut & David Pilař</div>
+    </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Semestrální projekt</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://use.fontawesome.com/facf9fa52c.css" media="all" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <meta name="description" content="Semestrální projekt - Webdesign">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="eshop, czu, czushop">
+    <meta name="googlebot" content="snippet,archive">
+    <meta name="robots" content="index,follow">
+    <meta name="author" content="David Olžbut, David Pilař">
+</head>
+
+<body>
+
+<!-- menu -->
+<input id="main-menu-checkbox" type="checkbox">
+
+<header class="container-fluid shadow">
+    <div class="nav-logo">
+        <img src="./img/logo.png" alt="logo">
+    </div>
+
+    <label for="main-menu-checkbox" class="menu-toggle">
+        <span class="sr-only"></span>
+        <span class="fa fa-bars" aria-hidden="true"></span>
+    </label>
+
+    <nav id="main-menu"
+         class="main-menu container-fluid navbar"
+         aria-expanded="false"
+         aria-label="Main menu">
+        <label for="main-menu-checkbox" class="menu-close">
+            <span class="sr-only">Close main menu</span>
+            <span class="fa fa-close" aria-hidden="true"></span>
+        </label>
+        <ul class="nav">
+            <li>
+                <a href="index.html#about-us">O nás</a>
+            </li>
+            <li>
+                <a href="index.html#our-products">Naše produkty</a>
+            </li>
+            <li>
+                <a href="index.html#contact">Kontakt</a>
+            </li>
+        </ul>
+    </nav>
+    <label for="main-menu-checkbox"
+           class="backdrop"
+           tabindex="-1"
+           hidden></label>
+</header>
+
+<div class="top"></div>
+
+<section class="container-fluid o-nas bg-white" style="">
+    <div id="basket" class="container">
+        <h2>Objednávka</h2>
+        <div class="underline"></div>
+
+        <div class="basket_products_container">
+
+            <div class="order_form_container">
+
+                <p>Zadejte své dodací údaje.</p>
+
+                <div class="form">
+
+                    <label class="field">
+                        <span class="field_label" for="firstname">Jméno</span>
+                        <input class="field_input" type="text" id="firstname" />
+                    </label>
+                    <label class="field">
+                        <span class="field_label" for="lastname">Příjmení</span>
+                        <input class="field_input" type="text" id="lastname" />
+                    </label>
+                    <label class="field">
+                        <span class="field_label" for="address">Adresa</span>
+                        <input class="field_input" type="text" id="address" />
+                    </label>
+                    <label class="field">
+                        <span class="field_label" for="country">Země</span>
+                        <select class="field_input" id="country">
+                            <option value="czechia">Česko</option>
+                            <option value="slovakia">Slovensko</option>
+                        </select>
+                    </label>
+                    <label class="field">
+                        <span class="field_label" for="zipcode">PSČ</span>
+                        <input class="field_input" type="text" id="zipcode" />
+                    </label>
+                    <label class="field">
+                        <span class="field_label" for="city">Město</span>
+                        <input class="field_input" type="text" id="city" />
+                    </label>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="underline"></div>
+
+        <div class="basket_sumup">
+            <span>Celkem: 2100,- Kč</span>
+            <a href="basket2.html"><span>Dokončit objednávku</span></a>
+        </div>
+
+    </div>
+</section>
+
+<section class="container-fluid">
+    <a href="basket.html" class="float">
+        <span class="fa fa-shopping-basket my-float"></span>
+    </a>
+</section>
+
+<footer class="container-fluid footer shadow">
+    <div class="container">
+        <div class="copyright">© David Olžbut & David Pilař</div>
+    </div>
+</footer>
+
+</body>
+</html>
