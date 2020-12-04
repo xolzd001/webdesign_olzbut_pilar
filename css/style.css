@@ -28,7 +28,7 @@ p{
     font-size: 1.1em;
 }
 h1{
-    font-size: 2.5em;
+    font-size: 2.2em;
     margin-block-start: 0.5em;
     margin-block-end: 0.5em;
 }
@@ -86,6 +86,10 @@ header {
     width: 100%;
     position: relative;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .intro .filter {
     position: absolute;
@@ -96,9 +100,8 @@ header {
     background-color: rgba(0,0,0,0.75);
 }
 .intro-text{
-    max-width: 650px;
+    max-width: 800px;
     margin: 0 auto;
-    padding-top: 30vh;
     color: #fff;
     position: relative;
 }
@@ -109,13 +112,12 @@ header {
     margin: 0 auto;
 }
 .intro-text p {
-    font-size: 1.4em;
+    font-size: 1.3em;
     margin-top: 15px;
     padding: 0 30px;
 }
 .button-intro{
     color: #fff;
-    margin: 50px;
     font-size: 1.2em;
     font-weight: 500;
     transition: 0.3s;
@@ -132,7 +134,7 @@ header {
 .underline {
     margin: 0 auto;
     width: 120px;
-    height: 3px;
+    height: 2px;
     background: #000;
     margin-bottom: 60px;
 }
@@ -158,8 +160,12 @@ header {
 }
 
 .bg-grey {
-    background: #eee;
+    background: #fefefe;
     color: #000;
+}
+.bg-red{
+    color: #fff;
+    background: #b62429;
 }
 .list{
     display: inline-block;
@@ -171,7 +177,7 @@ header {
     /*margin-top: 80px;*/
     display: grid;
     align-items: center;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     grid-column-gap: 25px;
     grid-row-gap: 25px;
 }
@@ -183,6 +189,7 @@ header {
     -moz-box-shadow: 0 0 5px 0 rgba(50, 50, 50, 0.6);
     box-shadow: 0 0 5px 0 rgba(50, 50, 50, 0.6);
     padding: 10px;
+    min-height: 100%;
 }
 
 .product .underline {
@@ -197,17 +204,20 @@ header {
     width: 80%;
     max-width: 400px;
     height: auto;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .product .product-description{
     font-size: 1em;
+    max-width: 80%;
+    text-align: center;
+    margin: 25px auto;
 }
 
 .add-to-cart{
-    color: #eee;
-    font-size: 1.2em;
-    margin: 50px 0 50px 0;
+    color: #fff;
+    font-size: 1.1em;
+    margin: 10px 0 10px 0;
     transition: 0.3s;
     border: 1px solid #eee;
     background: #5cb85c;
@@ -219,6 +229,8 @@ header {
     vertical-align: middle;
     cursor: pointer;
     border-radius: 5px;
+    max-width: 80%;
+    width: 80%;
 }
 .product-description{
     font-size: 1em;
@@ -530,12 +542,51 @@ span.product_price {
     display: flex;
     margin: 0.3em 0;
 }
-
+#contact-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 .field_label {
-    margin-right: auto;
+    margin-right: 10px;
 }
 
 .field_input {
     border-radius: 5px;
     border: 1px solid #ccc;
+}
+.arrow-down{
+    font-size: 5em;
+}
+.map .container{
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto -8px auto;
+    padding: 0;
+    min-height:500px;
+    max-height: 800px;
+}
+.map-iframe{
+    border:0;
+    min-width: 100%;
+    min-height:100%;
+    height:500px;
+    max-height: 600px;
+}
+.btn-send{
+    color: #fff;
+    font-size: 1.2em;
+    margin: 10px auto;
+    transition: 0.3s;
+    border: 1px solid #eee;
+    background: #5cb85c;
+    display: inline-block;
+    padding: 6px 12px;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 5px;
 }
