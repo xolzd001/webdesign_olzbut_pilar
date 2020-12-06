@@ -10,10 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a174971b-9b7d-4a28-adce-c52f9e99a510" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/olzbut.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/pilar.jpg" afterDir="false" />
+    <list default="true" id="a174971b-9b7d-4a28-adce-c52f9e99a510" name="Default Changelist" comment="progress">
+      <change afterPath="$PROJECT_DIR$/basket3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-20200459.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basket.html" beforeDir="false" afterPath="$PROJECT_DIR$/basket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basket2.html" beforeDir="false" afterPath="$PROJECT_DIR$/basket2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -40,9 +43,6 @@
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="d3adeeb8-2b90-4668-9e7e-97ae34f90c2a" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/index.html" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="ProjectId" id="1jBBynWPT6dXdMaG1uh5yFiE6u8" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -66,6 +66,7 @@
       <recent name="$PROJECT_DIR$/img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\PhpstormProjects\webdesign_olzbut_pilar_git" />
       <recent name="C:\Users\Administrator\PhpstormProjects\webdesign_olzbut_pilar_git\img" />
       <recent name="C:\Users\Administrator\PhpstormProjects\webdesign_olzbut_pilar_git\olzbut" />
       <recent name="$PROJECT_DIR$/css" />
@@ -88,7 +89,7 @@
       <workItem from="1607107693069" duration="6394000" />
       <workItem from="1607249076749" duration="1222000" />
       <workItem from="1607253069378" duration="624000" />
-      <workItem from="1607254017451" duration="12507000" />
+      <workItem from="1607254017451" duration="18402000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1603267960356</created>
@@ -230,7 +231,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607268130186</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="progress">
+      <created>1607270495451</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1607270495451</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

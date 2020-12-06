@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="cs">
-
     <head>
         <meta http-equiv="content-type" content="text/html; charset=utf-8">
         <title>Semestrální projekt</title>
@@ -17,7 +16,7 @@
 
     <body>
 
-        <div class="wrapper">
+            <div class="wrapper">
 
             <!-- menu -->
             <input id="main-menu-checkbox" type="checkbox">
@@ -55,6 +54,7 @@
 
             <div class="top"></div>
 
+
             <!-- Objednávka -->
             <div class="container-fluid o-nas bg-white" style="">
                 <div id="basket" class="container">
@@ -66,11 +66,11 @@
                                 <p>KOŠÍK</p>
                             </div>
                             <div class="stepwizard-step">
-                                <a href="basket2.html"><span class="btn btn-primary btn-circle">2</span></a>
+                                <a href="basket2.html"><span class="btn btn-default btn-circle">2</span></a>
                                 <p>OSOBNÍ ÚDAJE</p>
                             </div>
                             <div class="stepwizard-step">
-                                <a href="basket3.html"><span class="btn btn-default btn-circle">3</span></a>
+                                <a href="basket3.html"><span class="btn btn-primary btn-circle">3</span></a>
                                 <p>DORUČENÍ A PLATBA</p>
                             </div> 
                             <div class="stepwizard-step">
@@ -80,45 +80,30 @@
                         </div>
                     </div>
 
-
                     <div class="underline"></div>
 
                     <div class="basket_products_container">
 
                         <div class="order_form_container">
                             
-                            <p>Zadejte své fakturační údaje.</p>
+                            <p>Zvolte typ dopravy a platby</p>
 
                             <form class="form">
 
                                 <span class="field">
-                                    <label class="field_label" for="firstname">Jméno</label>
-                                    <input class="field_input" type="text" id="firstname" />
-                                </span>
-                                <span class="field">
-                                    <label class="field_label" for="lastname">Příjmení</label>
-                                    <input class="field_input" type="text" id="lastname" />
-                                </span>
-                                <span class="field">
-                                    <label class="field_label" for="address">Adresa</label>
-                                    <input class="field_input" type="text" id="address" />
-                                </span>
-                                <span class="field">
-                                    <label class="field_label" for="country">Země</label>
-                                    <select class="field_input" id="country">
-                                    <option value="czechia">Česko</option>
-                                    <option value="slovakia">Slovensko</option>
+                                    <label class="field_label" for="shipping">Doprava</label>
+                                    <select class="field_input" id="shipping">
+                                        <option value="lib_czu">Osobně - knihovna ČZU</option>
+                                        <option value="shop_czu">Osobně - ČZU Shop (Menza)</option>
                                     </select>
                                 </span>
                                 <span class="field">
-                                    <label class="field_label" for="zipcode">PSČ</label>
-                                    <input class="field_input" type="text" id="zipcode" />
+                                    <label class="field_label" for="payment">Platba</label>
+                                    <select class="field_input" id="payment">
+                                        <option value="cash">Na místě v hotovosti</option>
+                                        <option value="card">Na místě kartou</option>
+                                    </select>
                                 </span>
-                                <span class="field">
-                                    <label class="field_label" for="city">Město</label>
-                                    <input class="field_input" type="text" id="city" />
-                                </span>
-
                             </form>
 
                         </div>
@@ -127,7 +112,7 @@
 
                         <div class="basket_sumup">
                             <span>Celkem: 1696,- Kč</span>
-                            <a href="basket3.html"><span>Pokračovat</span></a>
+                            <a href="order-20200459.html"><span>Dokončit objednávku</span></a>
                         </div>
 
                     </div>

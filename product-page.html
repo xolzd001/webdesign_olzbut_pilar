@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="cs">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <title>Semestrální projekt</title>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+        <link href="https://use.fontawesome.com/facf9fa52c.css" media="all" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <meta name="description" content="Semestrální projekt - Webdesign">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="eshop, czu, czushop">
+        <meta name="googlebot" content="snippet,archive">
+        <meta name="robots" content="index,follow">
+        <meta name="author" content="David Olžbut, David Pilař">
+    </head>
+
+    <body>
+
+        <div class="wrapper">
+        
+            <!-- menu -->
+            <input id="main-menu-checkbox" type="checkbox">
+
+            <header class="container-fluid shadow">
+                <div class="nav-logo">
+                    <a href="index.html"><img src="./img/logo.png" alt="logo čzu"></a>
+                    <h1 class="heading">ČZU Shop</h1>
+                </div>
+
+                <label for="main-menu-checkbox" class="menu-toggle">
+                    <span class="sr-only"></span>
+                    <span class="fa fa-bars" aria-hidden="true"></span>
+                </label>
+
+                <nav id="main-menu" class="main-menu container-fluid navbar" aria-expanded="false" aria-label="Main menu">
+                    <label for="main-menu-checkbox" class="menu-close">
+                        <span class="sr-only">Close main menu</span>
+                        <span class="fa fa-close" aria-hidden="true"></span>
+                    </label>
+                    <ul class="nav">
+                        <li>
+                            <a href="index.html#about-us">O nás</a>
+                        </li>
+                        <li>
+                            <a href="index.html#our-products">Naše produkty</a>
+                        </li>
+                        <li>
+                            <a href="index.html#contact">Kontakt</a>
+                        </li>
+                    </ul>
+                </nav>
+                <label for="main-menu-checkbox" class="backdrop" tabindex="-1" hidden></label>
+            </header>
+
+            <div class="top"></div>
+
+            <div class="product_page_container">
+                
+                <h2 class="product_name">ČZU jednorázová rouška</h2>
+
+                <div class="product_attributes">
+                    <div class="product_photo">
+                        <a href="#">
+                            <img src="img/rouska.jpg" alt="rouška">
+                        </a>
+                    </div>
+
+                    <div class="product_info">
+
+                        <ul class="product_description">
+                            <li>Rouška s univerzální velikostí</li>
+                            <li>Odpovídá normě EN 149</li>
+                            <li>Modrá barva</li>
+                            <li>Unisex</li>
+                            <li>Balení obsahuje 10 ks</li>
+                        </ul>
+                        <span class="product_price"><strong>149,- Kč</strong></span>
+
+                        <a class="add-to-cart" href="basket.html">
+                            <span class="fa fa-shopping-cart"></span>
+                            Koupit
+                        </a>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div class="push"></div>
+        </div>
+
+        <!-- Patička -->
+        <footer class="container-fluid footer">
+            <div class="container">
+                <div class="copyright">© David Olžbut &amp; David Pilař</div>
+            </div>
+        </footer>
+
+    </body>
+</html>

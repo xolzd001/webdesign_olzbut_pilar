@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="cs">
-    
     <head>
         <meta http-equiv="content-type" content="text/html; charset=utf-8">
         <title>Semestrální projekt</title>
@@ -55,36 +54,38 @@
 
             <div class="top"></div>
 
-            <section class="container-fluid o-nas bg-white" style="">
+
+            <!-- Objednávka -->
+            <div class="container-fluid o-nas bg-white" style="">
                 <div id="basket" class="container">
 
-
-
-                <div class="stepwizard">
-                    <div class="stepwizard-row">
-                        <div class="stepwizard-step">
-                            <a href="basket.html"><span class="btn btn-primary btn-circle">1</span></a>
-                            <p>KOŠÍK</p>
-                        </div>
-                        <div class="stepwizard-step">
-                            <a href="basket2.html"><span class="btn btn-default btn-circle">2</span></a>
-                            <p>OSOBNÍ ÚDAJE</p>
-                        </div>
-                        <div class="stepwizard-step">
-                            <a href="basket3.html"><span class="btn btn-default btn-circle">3</span></a>
-                            <p>DORUČENÍ A PLATBA</p>
-                        </div> 
-                        <div class="stepwizard-step">
-                            <a href="#"><span class="btn btn-default btn-circle">4</span></a>
-                            <p>SHRNUTÍ OBJEDNÁVKY</p>
+                    <div class="stepwizard">
+                        <div class="stepwizard-row">
+                            <div class="stepwizard-step">
+                                <a href="basket.html"><span class="btn btn-default btn-circle">1</span></a>
+                                <p>KOŠÍK</p>
+                            </div>
+                            <div class="stepwizard-step">
+                                <a href="basket2.html"><span class="btn btn-default btn-circle">2</span></a>
+                                <p>OSOBNÍ ÚDAJE</p>
+                            </div>
+                            <div class="stepwizard-step">
+                                <a href="basket3.html"><span class="btn btn-default btn-circle">3</span></a>
+                                <p>DORUČENÍ A PLATBA</p>
+                            </div> 
+                            <div class="stepwizard-step">
+                                <a href="#"><span class="btn btn-primary btn-circle">4</span></a>
+                                <p>SHRNUTÍ OBJEDNÁVKY</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-
 
                     <div class="underline"></div>
 
                     <div class="basket_products_container">
+                        
+                        <p>Objednávka #20200459</p>
+                        <div class="underline"></div>
                         <div class="basket_items">
                             <div class="basket_item">
                                 <div class="basket_product_image">
@@ -96,7 +97,6 @@
                                     <span class="product_name">Jednorázová rouška</span>
                                     <span class="product_amount">2x</span>
                                     <span class="product_price">149,- Kč</span>
-                                    <button class="product_remove product1">Odebrat</button>
                                 </div>
                             </div>
 
@@ -110,7 +110,6 @@
                                     <span class="product_name">Stylová čepička</span>
                                     <span class="product_amount">1x</span>
                                     <span class="product_price">399,- Kč</span>
-                                    <button class="product_remove product2">Odebrat</button>
                                 </div>
                             </div>
 
@@ -124,7 +123,6 @@
                                     <span class="product_name">Stromový overal</span>
                                     <span class="product_amount">1x</span>
                                     <span class="product_price">999,- Kč</span>
-                                    <button class="product_remove product3">Odebrat</button>
                                 </div>
                             </div>
 
@@ -132,21 +130,31 @@
 
                         <div class="underline"></div>
 
+                        <div class="order_properties">
+                            <span><strong>Doprava:</strong> Osobně - ČZU Shop (Menza)</span>
+                            <span><strong>Platba:</strong> Na místě kartou</span>
+                        </div>
+
+                        <div class="underline"></div>
+
                         <div class="basket_sumup">
                             <span>Celkem: 1696,- Kč</span>
-                            <a href="basket2.html"><span>Pokračovat</span></a>
+                            <a href="index.html"><span>Hotovo</span></a>
+                            <a class="storno" href="#"><span>Storno</span></a>
                         </div>
 
                     </div>
+
                 </div>
-            </section>
+            </div>
 
             <div class="push"></div>
         </div>
 
-        <footer class="container-fluid footer  shadow">
+        <!-- Patička -->
+        <footer class="container-fluid footer">
             <div class="container">
-                <div class="copyright">© David Olžbut & David Pilař</div>
+                <div class="copyright">© David Olžbut &amp; David Pilař</div>
             </div>
         </footer>
 
