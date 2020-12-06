@@ -571,6 +571,7 @@ span.product_price {
 }
 address strong{
     color: #b62429;
+    font-size: 1.1em;
 }
 .contact-grid-container{
     display: grid;
@@ -632,4 +633,14 @@ form#contact-form textarea,
 form#contact-form button {
     grid-column: 2 / 3;
     margin: 5px;
+}
+.about-us img{
+    width: 80%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 150px;
+    margin-top: -45px;
+}
+#about-us .grid-container{
+    grid-column-gap: 100px;
 }
