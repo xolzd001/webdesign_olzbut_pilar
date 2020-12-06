@@ -8,6 +8,7 @@ author: David Olžbut, David Pilař
 html, body{
     height: 100%;
     width: 100%;
+    font-size: 16px;
 }
 body{
     margin: 0 auto;
@@ -542,12 +543,6 @@ span.product_price {
     display: flex;
     margin: 0.3em 0;
 }
-#contact-form{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
 .field_label {
     margin-right: 10px;
 }
@@ -574,7 +569,27 @@ span.product_price {
     height:500px;
     max-height: 600px;
 }
-.btn-send{
+address strong{
+    color: #b62429;
+}
+.contact-grid-container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    max-width: 80vh;
+    margin: 0 auto;
+}
+.contact-form-grid-container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, fit-content(20%));
+
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+}
+form#contact-form button{
     color: #fff;
     font-size: 1.2em;
     margin: 10px auto;
@@ -589,4 +604,32 @@ span.product_price {
     vertical-align: middle;
     cursor: pointer;
     border-radius: 5px;
+}
+form#contact-form input,
+form#contact-form textarea{
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 0.5em;
+    font-size: 1em;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    line-height: 1.42857143;
+}
+form#contact-form{
+    display: grid;
+   /* grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));*/
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+form#contact-form label {
+    grid-column: 1 / 2;
+}
+
+form#contact-form input,
+form#contact-form textarea,
+form#contact-form button {
+    grid-column: 2 / 3;
+    margin: 5px;
 }

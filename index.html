@@ -60,7 +60,7 @@
     <div id="intro">
         <div class="filter"></div>
         <div class="container-fluid intro-text">
-            <h1>Semestrální projekt</h1>
+            <h1>ČZU Shop</h1>
             <div class="underline-h1"></div>
             <p>
                 Jednoduchý E-SHOP s oblečením z provozně ekonomické fakulty české zemědělské univerzity
@@ -87,7 +87,7 @@
                     Koupit za 149,- Kč
                 </a>
                 <p class="product-description">
-                    Jednorázová stylová rouška pro všechny lamy na této univerzitě. Ideální dárek pro všechny spolužáky.
+                    Jednorázová stylová rouška pro všechny lamy na této univerzitě. Ideální lékařký doplněk pro všechny členy akademické obce.
                 </p>
             </article>
             <article class="product">
@@ -123,7 +123,7 @@
                     Koupit za 5499,- Kč
                 </a>
                 <p class="product-description">
-                    Elegantní modrý oblek, ve kterém budete vypadat v každé situaci dokonale. Jedinečný střih zvýrazní vaše mužné přednosti.
+                    Elegantní modrý oblek, ve kterém budete vypadat v každé situaci dokonale. Jedinečný střih zvýrazní vaše mužné křivky a proto se hodí na každou poradu či zkoušku.
                 </p>
             </article>
             <article class="product">
@@ -147,7 +147,7 @@
                     Koupit za 5499,- Kč
                 </a>
                 <p class="product-description">
-                    Elegantní modrý oblek, ve kterém budete vypadat v každé situaci dokonale. Jedinečný střih zvýrazní vaše mužné přednosti.
+                    Elegantní modrý oblek, ve kterém budete vypadat v každé situaci dokonale. Jedinečný střih zvýrazní vaše mužné křivky a proto se hodí na každou poradu či zkoušku.
                 </p>
             </article>
             <article class="product">
@@ -159,7 +159,7 @@
                     Koupit za 149,- Kč
                 </a>
                 <p class="product-description">
-                    Jednorázová stylová rouška pro všechny lamy na této univerzitě. Ideální dárek pro všechny spolužáky.
+                    Jednorázová stylová rouška pro všechny lamy na této univerzitě. Ideální lékařký doplněk pro všechny členy akademické obce.
                 </p>
             </article>
             <article class="product">
@@ -192,51 +192,57 @@
     <div id="contact" class="container">
         <h2>Kontakt</h2>
         <div class="underline"></div>
-        <p>V případě jakéhokoliv dotazu nás neváhejte kontaktovat.</p>
-        <address>
-            <p>
-                <strong>TEL:</strong>
-                +000 123 456 789
-            </p>
-            <p>
-                <strong>EMAIL:</strong>
-                info@nepistenam.cz
-            </p>
-        </address>
 
+        <section class="contact-grid-container">
+            <article>
+                <address>
+                    <strong>PROVOZOVATEL:</strong>
+                    <p>
+                        Provozně ekonomická fakulta<br />
+                        Česká zemědělská univerzita v Praze<br />
+                        Kamýcká 129<br />
+                        165 00 Praha - Suchdol<br />
+                        IČO: 60460709<br />
+                        DIČ: CZ60460709<br />
+                        ID datové schránky ČZU: 3hdj9cb
+                    </p>
+                </address>
+                <address>
+                        <strong>TEL:</strong>
+                        <p>
+                            +000 123 456 789<br />
+                            +000 987 654 321
+                        </p>
+                </address>
+                <address>
+                        <strong>EMAIL:</strong>
+                        <p>info@nepistenam.cz</p>
+                </address>
+            </article>
+            <article>
+                <form id="contact-form" action="#" method="POST">
+                    <label for="nameContact">Jméno</label>
+                    <input type="text" id="nameContact" placeholder="*Povinné pole" required>
 
-            <form class="form grid-container" id="contact-form" action="" method="POST">
-                <span class="field">
-                    <label class="field_label" for="nameContact">Jméno*</label>
-                    <input class="field_input" type="text" id="nameContact" required>
-                </span>
-                <span class="field">
-                    <label class="field_label" for="mailContact">E-mail*</label>
-                    <input class="field_input" type="text" id="mailContact" required>
-                </span>
-                <span class="field">
-                    <label class="field_label" for="telContact">Telefon*</label>
-                    <input class="field_input" type="text" id="telContact" required>
-                </span>
-                <span class="field">
-                    <label class="field_label" for="textContact">Zpráva*</label>
-                    <textarea class="field_input" type="text" id="textContact" rows="6" maxlength="254" required></textarea>
-                </span>
-                <span class="field">
+                    <label for="mailContact">E-mail</label>
+                    <input type="email" id="mailContact" placeholder="*Povinné pole" required>
 
-                        <button type="submit" class="btn-send" id="send-contact-form" name="send-contact-form">Odeslat</button>
-                </span>
-            </form>
+                    <label for="telContact">Telefon</label>
+                    <input type="tel" id="telContact">
 
+                    <label for="textContact">Zpráva</label>
+                    <textarea id="textContact" rows="7" maxlength="254" placeholder="*Povinné pole" required></textarea>
+
+                    <button type="submit" id="send-contact-form" name="send-contact-form">
+                        Odeslat
+                        <span class="fa fa-paper-plane"></span>
+                    </button>
+                </form>
+            </article>
+        </section>
 
 
     </div>
-</section>
-
-<section class="container-fluid">
-    <a href="basket.html" class="float">
-        <span class="fa fa-shopping-basket my-float"></span>
-    </a>
 </section>
 
 <section class="container-fluid map shadow" id="map">
@@ -254,6 +260,12 @@
         <div class="copyright">© David Olžbut & David Pilař</div>
     </div>
 </footer>
+
+<span class="container-fluid">
+    <a href="basket.html" class="float">
+        <span class="fa fa-shopping-basket my-float"></span>
+    </a>
+</span>
 
 </body>
 </html>
